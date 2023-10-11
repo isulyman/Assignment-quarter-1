@@ -1,0 +1,24 @@
+let guests_List = ["Mr. Imran", "Mr. Azmat", "Mr. Ikram"];
+let invitation_Message = ", you are invited to dinner at my residence.";
+console.log(guests_List[0] + invitation_Message);
+console.log(guests_List[1] + invitation_Message);
+console.log(guests_List[2] + invitation_Message);
+console.log(guests_List[2] + " " + `is not attending the dinner.`);
+guests_List.pop();
+guests_List.push("Mr. Khurram");
+let scndinvitationMessage =
+  ", you are invited to dinner at my residence please.";
+console.log(guests_List[0] + scndinvitationMessage);
+console.log(guests_List[1] + scndinvitationMessage);
+console.log(guests_List[2] + scndinvitationMessage);
+let bigtbstatment = ", I have found a big table for the dinner.";
+console.log(guests_List[0] + bigtbstatment);
+console.log(guests_List[1] + bigtbstatment);
+console.log(guests_List[2] + bigtbstatment);
+guests_List.unshift("Mr. Saqib");
+guests_List.splice(2, 0, "Mr. Ammar");
+console.log(guests_List[0] + bigtbstatment);
+console.log(guests_List[1] + bigtbstatment);
+console.log(guests_List[2] + bigtbstatment);
+console.log(guests_List[3] + bigtbstatment);
+console.log(guests_List[4] + bigtbstatment);
